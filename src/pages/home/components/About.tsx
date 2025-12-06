@@ -1,3 +1,5 @@
+import profileImg from '../../../assets/images/kisalka.jpeg';
+
 export default function About() {
   const metrics = [
     { value: '7+', label: 'Years Experience' },
@@ -68,7 +70,7 @@ export default function About() {
                 }}
               >
                 <img 
-                  src="https://readdy.ai/api/search-image?query=professional%20software%20engineer%20portrait%20in%20modern%20office%20setting%2C%20confident%20senior%20developer%2C%20tech%20professional%20headshot%2C%20clean%20simple%20background%20with%20subtle%20tech%20elements%2C%20professional%20lighting%2C%20high%20quality%20corporate%20photography&width=400&height=500&seq=about-photo&orientation=portrait"
+                  src={profileImg}
                   alt="Kisalka Rajapaksha - Senior Software Engineer"
                   className="img-fluid w-100"
                   style={{ objectFit: 'cover', objectPosition: 'top' }}

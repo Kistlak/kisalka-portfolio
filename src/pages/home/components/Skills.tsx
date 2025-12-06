@@ -20,8 +20,8 @@ export default function Skills() {
       title: 'Cloud Platforms',
       skills: [
         { name: 'AWS', level: 90 },
-        { name: 'Azure', level: 85 },
-        { name: 'DigitalOcean', level: 88 },
+        { name: 'Azure', level: 75 },
+        { name: 'DigitalOcean', level: 85 },
         { name: 'Docker', level: 85 }
       ]
     },
@@ -29,8 +29,8 @@ export default function Skills() {
       icon: 'fa-database',
       title: 'Database & Architecture',
       skills: [
-        { name: 'MySQL', level: 92 },
-        { name: 'PostgreSQL', level: 88 },
+        { name: 'MySQL', level: 95 },
+        { name: 'PostgreSQL', level: 90 },
         { name: 'Redis', level: 85 },
         { name: 'System Design', level: 90 }
       ]
@@ -39,20 +39,20 @@ export default function Skills() {
       icon: 'fa-cogs',
       title: 'Best Practices',
       skills: [
-        { name: 'TDD', level: 90 },
-        { name: 'DDD', level: 88 },
-        { name: 'SOLID Principles', level: 92 },
-        { name: 'CI/CD', level: 87 }
+        { name: 'Test Driven Development', level: 90 },
+        { name: 'Domain Driven Design', level: 90 },
+        { name: 'SOLID Principles', level: 90 },
+        { name: 'CI/CD', level: 85 }
       ]
     },
     {
       icon: 'fa-users',
       title: 'Leadership & Collaboration',
       skills: [
-        { name: 'Team Leadership', level: 93 },
+        { name: 'Team Leadership', level: 90 },
         { name: 'Agile/Scrum', level: 90 },
-        { name: 'Code Review', level: 92 },
-        { name: 'Mentoring', level: 88 }
+        { name: 'Code Review', level: 90 },
+        { name: 'Mentoring', level: 90 }
       ]
     },
     {
@@ -60,9 +60,8 @@ export default function Skills() {
       title: 'DevOps & Tools',
       skills: [
         { name: 'Git', level: 95 },
-        { name: 'Jenkins', level: 82 },
-        { name: 'Kubernetes', level: 80 },
-        { name: 'Monitoring', level: 85 }
+        { name: 'Asana', level: 95 },
+        { name: 'Monitoring', level: 90 }
       ]
     }
   ];

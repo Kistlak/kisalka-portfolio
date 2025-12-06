@@ -70,7 +70,8 @@ export default function Projects() {
         </div>
 
         <div className="row g-4">
-          {projects.map((project, index) => (
+          Coming Soon
+          {/* {projects.map((project, index) => (
             <div key={index} className="col-lg-4 col-md-6 animate-on-scroll">
               <div 
                 className="rounded-4 overflow-hidden h-100 d-flex flex-column"
@@ -173,7 +174,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </section>

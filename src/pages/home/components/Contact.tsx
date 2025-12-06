@@ -29,8 +29,8 @@ export default function Contact() {
     {
       icon: 'fa-envelope',
       label: 'Email',
-      value: 'contact@example.com',
-      link: 'mailto:contact@example.com'
+      value: 'kistlakall@gmail.com',
+      link: 'mailto:kistlakall@gmail.com'
     },
     {
       icon: 'fa-brands fa-linkedin',

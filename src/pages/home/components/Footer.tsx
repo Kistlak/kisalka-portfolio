@@ -2,9 +2,8 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
   
   const socialLinks = [
-    { icon: 'fa-github', url: 'https://github.com', label: 'GitHub' },
+    { icon: 'fa-github', url: 'https://github.com/Kistlak', label: 'GitHub' },
     { icon: 'fa-linkedin', url: 'https://www.linkedin.com/in/kisalka-rajapaksha/', label: 'LinkedIn' },
-    { icon: 'fa-twitter', url: 'https://twitter.com', label: 'Twitter' }
   ];
 
   return (
@@ -83,7 +82,7 @@ export default function Footer() {
               onMouseEnter={(e) => e.currentTarget.style.color = '#00d4ff'}
               onMouseLeave={(e) => e.currentTarget.style.color = '#8a8a8a'}
             >
-              Powered by Readdy
+              {/* Powered by Kisalka Rajapaksha */}
             </a>
           </div>
         </div>
