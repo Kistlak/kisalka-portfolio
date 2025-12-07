@@ -11,8 +11,8 @@ export default function Skills() {
       skills: [
         { name: 'PHP', level: 95 },
         { name: 'Laravel', level: 95 },
-        { name: 'RESTful APIs', level: 90 },
-        { name: 'Microservices', level: 85 }
+        { name: 'React', level: 70 },
+        { name: 'RESTful APIs', level: 90 }
       ]
     },
     {
@@ -30,7 +30,7 @@ export default function Skills() {
       title: 'Database & Architecture',
       skills: [
         { name: 'MySQL', level: 95 },
-        { name: 'PostgreSQL', level: 90 },
+        { name: 'MongoDB', level: 85 },
         { name: 'Redis', level: 85 },
         { name: 'System Design', level: 90 }
       ]

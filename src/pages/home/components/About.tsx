@@ -4,7 +4,7 @@ export default function About() {
   const metrics = [
     { value: '7+', label: 'Years Experience' },
     { value: '50+', label: 'Projects Delivered' },
-    { value: '15+', label: 'Teams Led' }
+    { value: '8+', label: 'Teams Led' }
   ];
 
   return (
@@ -26,7 +26,7 @@ export default function About() {
             </div>
             
             <h2 className="display-5 fw-bold mb-4" style={{ color: '#ffffff' }}>
-              Building Scalable Solutions
+              Kisalka Rajapaksha
             </h2>
             
             <p className="mb-4" style={{ color: '#b0b0b0', lineHeight: '1.8', fontSize: '1.1rem' }}>
@@ -83,11 +83,11 @@ export default function About() {
                   className="rounded-circle p-3 float-animation"
                   style={{ 
                     backgroundColor: '#1f1f1f',
-                    border: '2px solid #00d4ff',
+                    border: '2px solid #00ffcc',
                     animationDelay: '0s'
                   }}
                 >
-                  <i className="fab fa-aws fa-2x" style={{ color: '#00d4ff' }}></i>
+                  <i className="fab fa-laravel fa-2x" style={{ color: '#00ffcc' }}></i>
                 </div>
               </div>
               
@@ -96,11 +96,11 @@ export default function About() {
                   className="rounded-circle p-3 float-animation"
                   style={{ 
                     backgroundColor: '#1f1f1f',
-                    border: '2px solid #00ffcc',
+                    border: '2px solid #00d4ff',
                     animationDelay: '1s'
                   }}
                 >
-                  <i className="fab fa-laravel fa-2x" style={{ color: '#00ffcc' }}></i>
+                  <i className="fab fa-aws fa-2x" style={{ color: '#00d4ff' }}></i>
                 </div>
               </div>
               
