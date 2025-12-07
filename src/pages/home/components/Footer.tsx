@@ -1,3 +1,5 @@
+import krLogo from '../../../assets/images/apple-touch-icon.png';
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   
@@ -19,11 +21,10 @@ export default function Footer() {
           <div className="col-lg-4 text-center text-lg-start">
             <div className="d-flex align-items-center justify-content-center justify-content-lg-start gap-2">
               <img 
-                src="https://public.readdy.ai/ai/img_res/76910337-2d69-4866-95b5-9c728358a638.png" 
+                src={krLogo}
                 alt="KR Logo" 
                 style={{ height: '35px', width: '35px', objectFit: 'cover', borderRadius: '6px' }}
               />
-              <span className="fw-bold fs-4 gradient-text">KR</span>
             </div>
           </div>
 
@@ -69,8 +70,8 @@ export default function Footer() {
             <p className="mb-0" style={{ color: '#8a8a8a', fontSize: '0.9rem' }}>
               © {currentYear} Kisalka Rajapaksha. All rights reserved.
             </p>
-            <a 
-              href="https://readdy.ai/?origin=logo" 
+            {/* <a 
+              href="#" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-decoration-none d-inline-block mt-2"
@@ -82,8 +83,8 @@ export default function Footer() {
               onMouseEnter={(e) => e.currentTarget.style.color = '#00d4ff'}
               onMouseLeave={(e) => e.currentTarget.style.color = '#8a8a8a'}
             >
-              {/* Powered by Kisalka Rajapaksha */}
-            </a>
+              Powered by Kisalka Rajapaksha
+            </a> */}
           </div>
         </div>
       </div>

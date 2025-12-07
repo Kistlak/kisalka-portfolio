@@ -54,7 +54,7 @@ export default function Hero() {
             </p>
             
             <div className="d-flex flex-wrap gap-2 mb-4">
-              {['PHP', 'Laravel', 'AWS', 'Azure', 'DigitalOcean'].map((tech) => (
+              {['PHP', 'Laravel', 'React', 'NodeJS', 'AWS'].map((tech) => (
                 <span 
                   key={tech}
                   className="badge rounded-pill px-3 py-2"

@@ -96,7 +96,7 @@ export default function Projects() {
               >
                 <div className="position-relative overflow-hidden" style={{ height: '220px' }}>
                   <img 
-                    src={`https://readdy.ai/api/search-image?query=$%7Bproject.image%7D&width=400&height=220&seq=project-${index}&orientation=landscape`}
+                    src={`https://demo.ai/api/search-image?query=$%7Bproject.image%7D&width=400&height=220&seq=project-${index}&orientation=landscape`}
                     alt={project.title}
                     className="w-100 h-100"
                     style={{ objectFit: 'cover', objectPosition: 'top' }}

@@ -5,10 +5,10 @@ export default function Experience() {
       company: 'GTECH Information Technology - Dubai',
       duration: 'Jan 2022 - Present',
       achievements: [
-        'Led a team of 8 developers in architecting and delivering a microservices-based e-commerce platform serving 100K+ daily users',
-        'Reduced system latency by 45% through optimization of database queries and implementation of Redis caching strategies',
-        'Implemented CI/CD pipelines using Jenkins and Docker, reducing deployment time by 60%',
-        'Mentored junior developers and conducted code reviews to maintain high code quality standards'
+        '• Led a team of 8 developers in architecting and delivering a microservices-based e-commerce platform serving 100K+ daily users',
+        '• Reduced system latency by 45% through optimization of database queries and implementation of Redis caching strategies',
+        '• Implemented CI/CD pipelines using Jenkins and Docker, reducing deployment time by 60%',
+        '• Mentored junior developers and conducted code reviews to maintain high code quality standards'
       ],
       technologies: ['PHP', 'Laravel', 'AWS', 'Docker', 'Redis', 'MySQL']
     },
@@ -17,10 +17,10 @@ export default function Experience() {
       company: 'ION Groups (PVT) Ltd - Sri Lanka',
       duration: 'Feb 2021 - Jan 2022',
       achievements: [
-        'Developed and maintained RESTful APIs serving mobile and web applications with 99.9% uptime',
-        'Migrated legacy monolithic application to modern Laravel framework, improving maintainability and performance',
-        'Implemented automated testing suite achieving 85% code coverage using PHPUnit',
-        'Collaborated with cross-functional teams to deliver features on time and within budget'
+        '• Developed and maintained RESTful APIs serving mobile and web applications with 99.9% uptime',
+        '• Migrated legacy monolithic application to modern Laravel framework, improving maintainability and performance',
+        '• Implemented automated testing suite achieving 85% code coverage using PHPUnit',
+        '• Collaborated with cross-functional teams to deliver features on time and within budget'
       ],
       technologies: ['Laravel', 'Vue.js', 'PostgreSQL', 'Azure', 'Git']
     },
@@ -29,10 +29,10 @@ export default function Experience() {
       company: 'Buk Flights (PVT) Ltd – Sri Lanka',
       duration: 'June 2018 - Feb 2021',
       achievements: [
-        'Built scalable web applications using PHP and Laravel framework from ground up',
-        'Integrated third-party APIs including payment gateways, social media platforms, and analytics tools',
-        'Optimized database performance through proper indexing and query optimization',
-        'Participated in agile development processes and daily stand-ups'
+        '• Built scalable web applications using PHP and Laravel framework from ground up',
+        '• Integrated third-party APIs including payment gateways, social media platforms, and analytics tools',
+        '• Optimized database performance through proper indexing and query optimization',
+        '• Participated in agile development processes and daily stand-ups'
       ],
       technologies: ['PHP', 'Laravel', 'MySQL', 'JavaScript', 'Bootstrap']
     }

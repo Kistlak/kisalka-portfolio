@@ -16,7 +16,7 @@ export default function Navbar({ scrolled }: NavbarProps) {
       <div className="container">
         <a className="navbar-brand d-flex align-items-center" href="#hero">
           <img 
-            src="https://public.readdy.ai/ai/img_res/76910337-2d69-4866-95b5-9c728358a638.png" 
+            src="" 
             alt="Kisalka Rajapaksha Logo" 
             style={{ height: '40px', width: '40px', objectFit: 'cover', borderRadius: '8px' }}
             className="me-2"
