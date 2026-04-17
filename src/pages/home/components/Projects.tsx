@@ -1,10 +1,10 @@
-import p1 from '../../../assets/images/projects/P1.PNG';
-import p2 from '../../../assets/images/projects/P2.PNG';
-import p3 from '../../../assets/images/projects/P3.PNG';
-import p4 from '../../../assets/images/projects/P4.PNG';
-import p5 from '../../../assets/images/projects/P5.PNG';
-import p6 from '../../../assets/images/projects/P6.PNG';
-import p7 from '../../../assets/images/projects/P7.PNG';
+import p1 from '../../../assets/images/projects/P1.png';
+import p2 from '../../../assets/images/projects/P2.png';
+import p3 from '../../../assets/images/projects/P3.png';
+import p4 from '../../../assets/images/projects/P4.png';
+import p5 from '../../../assets/images/projects/P5.png';
+import p6 from '../../../assets/images/projects/P6.png';
+import p7 from '../../../assets/images/projects/P7.png';
 
 export default function Projects() {
   const projects = [
