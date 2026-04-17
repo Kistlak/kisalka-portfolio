@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import { useEffect, useState } from 'react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -65,6 +65,12 @@ export default function Contact() {
       label: 'LinkedIn',
       value: 'Kisalka Rajapaksha',
       link: 'https://www.linkedin.com/in/kisalka-rajapaksha/'
+    },
+    {
+      icon: 'fa-brands fa-github',
+      label: 'GitHub',
+      value: 'Kistlak',
+      link: 'https://github.com/Kistlak'
     },
     {
       icon: 'fa-map-marker-alt',

@@ -1,50 +1,66 @@
+import p1 from '../../../assets/images/projects/P1.PNG';
+import p2 from '../../../assets/images/projects/P2.PNG';
+import p3 from '../../../assets/images/projects/P3.PNG';
+import p4 from '../../../assets/images/projects/P4.PNG';
+import p5 from '../../../assets/images/projects/P5.PNG';
+import p6 from '../../../assets/images/projects/P6.PNG';
+import p7 from '../../../assets/images/projects/P7.PNG';
+
 export default function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Microservices Platform',
-      description: 'Scalable microservices architecture handling 100K+ daily transactions with real-time inventory management and payment processing.',
-      image: 'modern e-commerce platform dashboard interface with clean design, shopping cart analytics, product management system, dark theme with cyan accents, professional web application screenshot, high quality UI design',
-      technologies: ['Laravel', 'AWS', 'Docker', 'Redis', 'MySQL'],
+      title: 'Story of Glory - Wedding & Preshoot Photography',
+      description: 'An elegant website for a UK-based wedding and pre-shoot photography brand, designed to showcase their portfolio and let couples easily explore packages and book sessions. Built with a clean, gallery-focused layout that puts the imagery front and center.',
+      image: p1,
+      technologies: ['Laravel', 'Laravel Backpack', 'Redis', 'MySQL', 'AWS'],
+      github: 'https://github.com/Kistlak/story-of-glory',
+      demo: 'https://www.storyofglory.co.uk/'
+    },
+    {
+      title: 'My Own Portfolio : Yes, this site',
+      description: 'A responsive personal portfolio showcasing my work, skills, and experience as a software engineer. Built with React and deployed on Netlify, featuring a clean, modern design that highlights projects and makes it easy for visitors to get in touch.',
+      image: p2,
+      technologies: ['React', 'Netlify', 'Formspree'],
+      github: 'https://github.com/Kistlak/kisalka-portfolio',
+      demo: 'https://kisalka-portfolio.netlify.app/'
+    },
+    {
+      title: 'Bandula Sale Center - Ecommerce web site with Laravel and MySql',
+      description: 'An e-commerce website built for a retail business, allowing customers to browse products, manage carts, and place orders online. Developed with Laravel and MySQL, featuring a clean storefront and an admin dashboard for managing inventory and orders.',
+      image: p3,
+      technologies: ['Laravel', 'Docker', 'Redis', 'MySQL', 'DigitalOcean'],
+      github: 'https://github.com/Kistlak/bandula-sale-center',
+      demo: '#'
+    },
+    {
+      title: 'Air Ticket Reservation - Admin Dashboard',
+      description: 'An admin dashboard for managing an air ticket reservation and booking system, enabling staff to handle flights, bookings, and customer data efficiently. Built with Laravel, Angular 8, and MySQL, with a focus on streamlined workflows and real-time data management.',
+      image: p4,
+      technologies: ['Laravel', 'Angular 8', 'MySQL', 'AWS'],
       github: '#',
       demo: '#'
     },
     {
-      title: 'Cloud Infrastructure Automation',
-      description: 'Automated deployment pipeline and infrastructure management system reducing deployment time by 60% using CI/CD best practices.',
-      image: 'cloud infrastructure dashboard with server monitoring, deployment pipelines, DevOps automation interface, dark theme with blue and cyan elements, modern tech visualization, professional software',
-      technologies: ['AWS', 'Jenkins', 'Docker', 'Kubernetes', 'Terraform'],
-      github: '#',
+      title: 'Sri Lankan Train Schedules Finder',
+      description: 'A web application that helps users quickly search and view train schedules across Sri Lanka, making travel planning simple and accessible. Built with Laravel and MySQL, and integrated with REST APIs to deliver accurate, up-to-date schedule information.',
+      image: p5,
+      technologies: ['Laravel', 'MySQL'],
+      github: 'https://github.com/Kistlak/SLRailway',
       demo: '#'
     },
     {
-      title: 'Real-Time Analytics Dashboard',
-      description: 'High-performance analytics platform processing millions of events daily with real-time data visualization and reporting.',
-      image: 'analytics dashboard with real-time charts and graphs, data visualization interface, modern business intelligence platform, dark theme with vibrant data displays, professional dashboard design',
-      technologies: ['Laravel', 'Vue.js', 'Redis', 'PostgreSQL', 'Chart.js'],
-      github: '#',
+      title: 'Lawyer Norman',
+      description: 'A professional website for a legal practice, showcasing services, expertise, and contact details to help potential clients connect easily. Built with Angular 9 and integrated with an email REST API to handle client inquiries directly through the site.',
+      image: p6,
+      technologies: ['Laravel', 'MySQL', 'Formspree'],
+      github: 'https://github.com/Kistlak/LawyerNorman',
       demo: '#'
     },
     {
-      title: 'API Gateway & Management System',
-      description: 'Centralized API gateway managing authentication, rate limiting, and routing for multiple microservices with 99.9% uptime.',
-      image: 'API management interface showing endpoints, authentication flows, rate limiting dashboard, modern developer tools interface, dark theme with technical elements, professional software design',
-      technologies: ['Laravel', 'Redis', 'OAuth2', 'Docker', 'Nginx'],
-      github: '#',
-      demo: '#'
-    },
-    {
-      title: 'Multi-Tenant SaaS Application',
-      description: 'Scalable SaaS platform serving 500+ organizations with isolated data, custom branding, and role-based access control.',
-      image: 'SaaS application dashboard with multi-tenant features, user management interface, subscription billing system, modern cloud software, dark theme with professional design elements',
-      technologies: ['Laravel', 'MySQL', 'Azure', 'Stripe', 'Vue.js'],
-      github: '#',
-      demo: '#'
-    },
-    {
-      title: 'Automated Testing Framework',
-      description: 'Comprehensive testing suite achieving 85% code coverage with automated integration and unit tests for enterprise applications.',
-      image: 'testing framework dashboard showing test results, code coverage reports, continuous integration interface, developer tools, dark theme with green success indicators, professional testing platform',
-      technologies: ['PHPUnit', 'Laravel', 'Selenium', 'Jenkins', 'Docker'],
+      title: 'Air Ticket Reservation & Booking System',
+      description: "A full-featured flight booking platform that lets users search flights, compare fares, and complete reservations online. Built with Laravel and MySQL, and integrated with Sabre & Amadeus REST and SOAP APIs to deliver real-time flight data and secure booking functionality.",
+      image: p7,
+      technologies: ['Laravel', 'MySQL', 'Redis', 'MySQL'],
       github: '#',
       demo: '#'
     }
@@ -58,8 +74,8 @@ export default function Projects() {
             <h2 className="display-4 fw-bold mb-3" style={{ color: '#ffffff' }}>
               Featured Projects
             </h2>
-            <div 
-              style={{ 
+            <div
+              style={{
                 width: '80px',
                 height: '4px',
                 background: 'linear-gradient(90deg, #00d4ff, #00ffcc)',
@@ -70,12 +86,11 @@ export default function Projects() {
         </div>
 
         <div className="row g-4">
-          Coming Soon
-          {/* {projects.map((project, index) => (
+          {projects.map((project, index) => (
             <div key={index} className="col-lg-4 col-md-6 animate-on-scroll">
-              <div 
+              <div
                 className="rounded-4 overflow-hidden h-100 d-flex flex-column"
-                style={{ 
+                style={{
                   backgroundColor: '#1f1f1f',
                   border: '1px solid rgba(0, 212, 255, 0.1)',
                   transition: 'all 0.3s ease',
@@ -95,15 +110,15 @@ export default function Projects() {
                 }}
               >
                 <div className="position-relative overflow-hidden" style={{ height: '220px' }}>
-                  <img 
-                    src={`https://demo.ai/api/search-image?query=$%7Bproject.image%7D&width=400&height=220&seq=project-${index}&orientation=landscape`}
+                  <img
+                    src={project.image}
                     alt={project.title}
                     className="w-100 h-100"
                     style={{ objectFit: 'cover', objectPosition: 'top' }}
                   />
-                  <div 
+                  <div
                     className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
-                    style={{ 
+                    style={{
                       backgroundColor: 'rgba(0, 0, 0, 0.8)',
                       opacity: 0,
                       transition: 'opacity 0.3s ease'
@@ -111,9 +126,9 @@ export default function Projects() {
                     onMouseEnter={(e) => e.currentTarget.style.opacity = '1'}
                     onMouseLeave={(e) => e.currentTarget.style.opacity = '0'}
                   >
-                    <span 
+                    <span
                       className="btn btn-sm px-4 py-2 rounded-pill fw-semibold"
-                      style={{ 
+                      style={{
                         backgroundColor: '#00d4ff',
                         color: '#000000',
                         border: 'none'
@@ -134,10 +149,10 @@ export default function Projects() {
 
                   <div className="d-flex flex-wrap gap-2 mb-3">
                     {project.technologies.map((tech, i) => (
-                      <span 
+                      <span
                         key={i}
                         className="badge rounded-pill px-2 py-1"
-                        style={{ 
+                        style={{
                           backgroundColor: 'rgba(0, 212, 255, 0.1)',
                           color: '#00d4ff',
                           fontSize: '0.8rem',
@@ -150,31 +165,39 @@ export default function Projects() {
                   </div>
 
                   <div className="d-flex gap-3 mt-auto">
-                    <a 
-                      href={project.github}
-                      className="text-decoration-none d-flex align-items-center gap-2"
-                      style={{ color: '#00d4ff', fontSize: '0.95rem' }}
-                      onMouseEnter={(e) => e.currentTarget.style.color = '#00ffcc'}
-                      onMouseLeave={(e) => e.currentTarget.style.color = '#00d4ff'}
-                    >
-                      <i className="fab fa-github"></i>
-                      <span>Code</span>
-                    </a>
-                    <a 
-                      href={project.demo}
-                      className="text-decoration-none d-flex align-items-center gap-2"
-                      style={{ color: '#00d4ff', fontSize: '0.95rem' }}
-                      onMouseEnter={(e) => e.currentTarget.style.color = '#00ffcc'}
-                      onMouseLeave={(e) => e.currentTarget.style.color = '#00d4ff'}
-                    >
-                      <i className="fas fa-external-link-alt"></i>
-                      <span>Live Demo</span>
-                    </a>
+                    {(project.github !== '#' && project.github !== '') &&
+                      <a
+                        href={project.github}
+                        className="text-decoration-none d-flex align-items-center gap-2"
+                        style={{ color: '#00d4ff', fontSize: '0.95rem' }}
+                        onMouseEnter={(e) => e.currentTarget.style.color = '#00ffcc'}
+                        onMouseLeave={(e) => e.currentTarget.style.color = '#00d4ff'}
+                        target='_blank'
+                      >
+                        <i className="fab fa-github"></i>
+                        <span>Code</span>
+                      </a>
+                    }
+
+                    {(project.demo !== '#' && project.demo !== '') &&
+                      <a
+                        href={project.demo}
+                        className="text-decoration-none d-flex align-items-center gap-2"
+                        style={{ color: '#00d4ff', fontSize: '0.95rem' }}
+                        onMouseEnter={(e) => e.currentTarget.style.color = '#00ffcc'}
+                        onMouseLeave={(e) => e.currentTarget.style.color = '#00d4ff'}
+                        target='_blank'
+                      >
+                        <i className="fas fa-external-link-alt"></i>
+                        <span>Live Demo</span>
+                      </a>
+                    }
+
                   </div>
                 </div>
               </div>
             </div>
-          ))} */}
+          ))}
         </div>
       </div>
     </section>
